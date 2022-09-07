@@ -74,7 +74,7 @@ namespace Unisex
             // txtPassword
             // 
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtPassword.Location = new System.Drawing.Point(21, 261);
+            this.txtPassword.Location = new System.Drawing.Point(23, 234);
             this.txtPassword.Multiline = true;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(221, 20);
@@ -84,7 +84,7 @@ namespace Unisex
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(18, 234);
+            this.label3.Location = new System.Drawing.Point(20, 218);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(53, 13);
             this.label3.TabIndex = 3;
@@ -114,7 +114,7 @@ namespace Unisex
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(82, 352);
+            this.label2.Location = new System.Drawing.Point(82, 367);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(120, 13);
             this.label2.TabIndex = 7;
@@ -125,7 +125,7 @@ namespace Unisex
             this.lblCreateAcc.AutoSize = true;
             this.lblCreateAcc.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblCreateAcc.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCreateAcc.Location = new System.Drawing.Point(83, 374);
+            this.lblCreateAcc.Location = new System.Drawing.Point(83, 390);
             this.lblCreateAcc.Name = "lblCreateAcc";
             this.lblCreateAcc.Size = new System.Drawing.Size(93, 12);
             this.lblCreateAcc.TabIndex = 8;

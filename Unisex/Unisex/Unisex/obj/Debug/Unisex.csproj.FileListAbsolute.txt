@@ -20,3 +20,14 @@ C:\Users\32023960\Desktop\Unisex\Unisex\Unisex\obj\Debug\Unisex.csproj.GenerateR
 C:\Users\32023960\Desktop\Unisex\Unisex\Unisex\obj\Debug\Unisex.csproj.CoreCompileInputs.cache
 C:\Users\32023960\Desktop\Unisex\Unisex\Unisex\obj\Debug\Unisex.exe
 C:\Users\32023960\Desktop\Unisex\Unisex\Unisex\obj\Debug\Unisex.pdb
+C:\Users\Student\Desktop\Hair-Salon\Unisex\Unisex\Unisex\bin\Debug\Unisex.exe.config
+C:\Users\Student\Desktop\Hair-Salon\Unisex\Unisex\Unisex\bin\Debug\Unisex.exe
+C:\Users\Student\Desktop\Hair-Salon\Unisex\Unisex\Unisex\bin\Debug\Unisex.pdb
+C:\Users\Student\Desktop\Hair-Salon\Unisex\Unisex\Unisex\obj\Debug\Unisex.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\Hair-Salon\Unisex\Unisex\Unisex\obj\Debug\Unisex.frmLogin.resources
+C:\Users\Student\Desktop\Hair-Salon\Unisex\Unisex\Unisex\obj\Debug\Unisex.frmSignUp.resources
+C:\Users\Student\Desktop\Hair-Salon\Unisex\Unisex\Unisex\obj\Debug\Unisex.Properties.Resources.resources
+C:\Users\Student\Desktop\Hair-Salon\Unisex\Unisex\Unisex\obj\Debug\Unisex.csproj.GenerateResource.cache
+C:\Users\Student\Desktop\Hair-Salon\Unisex\Unisex\Unisex\obj\Debug\Unisex.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\Hair-Salon\Unisex\Unisex\Unisex\obj\Debug\Unisex.exe
+C:\Users\Student\Desktop\Hair-Salon\Unisex\Unisex\Unisex\obj\Debug\Unisex.pdb

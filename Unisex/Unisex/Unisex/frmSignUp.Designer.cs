@@ -41,6 +41,7 @@ namespace Unisex
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -51,7 +52,6 @@ namespace Unisex
             this.txtName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -78,9 +78,8 @@ namespace Unisex
             // 
             this.txtPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPass.Location = new System.Drawing.Point(6, 124);
-            this.txtPass.Multiline = true;
             this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(225, 25);
+            this.txtPass.Size = new System.Drawing.Size(225, 13);
             this.txtPass.TabIndex = 10;
             this.txtPass.UseSystemPasswordChar = true;
             // 
@@ -97,9 +96,8 @@ namespace Unisex
             // 
             this.txtConPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtConPass.Location = new System.Drawing.Point(6, 184);
-            this.txtConPass.Multiline = true;
             this.txtConPass.Name = "txtConPass";
-            this.txtConPass.Size = new System.Drawing.Size(225, 25);
+            this.txtConPass.Size = new System.Drawing.Size(225, 13);
             this.txtConPass.TabIndex = 12;
             this.txtConPass.UseSystemPasswordChar = true;
             // 
@@ -126,7 +124,7 @@ namespace Unisex
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox1.Location = new System.Drawing.Point(123, 215);
+            this.checkBox1.Location = new System.Drawing.Point(9, 215);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(102, 17);
             this.checkBox1.TabIndex = 14;
@@ -170,7 +168,15 @@ namespace Unisex
             this.groupBox1.Size = new System.Drawing.Size(245, 285);
             this.groupBox1.TabIndex = 19;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Login Info";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(6, 48);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(55, 13);
+            this.label9.TabIndex = 21;
+            this.label9.Text = "Username";
             // 
             // groupBox2
             // 
@@ -190,7 +196,6 @@ namespace Unisex
             this.groupBox2.Size = new System.Drawing.Size(245, 285);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Personal Info";
             // 
             // textBox1
             // 
@@ -273,15 +278,6 @@ namespace Unisex
             this.label1.Size = new System.Drawing.Size(111, 18);
             this.label1.TabIndex = 19;
             this.label1.Text = "Personal Info";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(6, 48);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(55, 13);
-            this.label9.TabIndex = 21;
-            this.label9.Text = "Username";
             // 
             // frmSignUp
             // 
