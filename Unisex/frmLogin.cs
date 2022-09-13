@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Unisex
 {
@@ -16,6 +17,8 @@ namespace Unisex
         {
             InitializeComponent();
         }
+        String conString;
+
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
@@ -46,12 +49,44 @@ namespace Unisex
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             if(txtUsername.Text=="admin101" && txtPassword.Text=="CMPG223")
             {
                 frmDash dash = new frmDash();
                 
-                dash.ShowDialog();
-                this.Close();
+                dash.Show();
+                this.Hide();
+            }
+            else
+            {
+                try
+                { 
+                    AppDomain.CurrentDomain.SetData("DataDirectory", "C:\\Users\\32023960\\Desktop\\Unisex\\Unisex");
+                    conString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Unisex.mdf;Integrated Security=True";
+                    SqlConnection con = new SqlConnection(conString);
+                
+                    String query="SELECT * FROM Users WHERE Username ='"+txtUsername.Text.Trim()+ "' AND Password ='" + txtPassword.Text.Trim() + "'";
+                    SqlDataAdapter adapter = new SqlDataAdapter(query, con);
+                    DataTable dtlb = new DataTable();
+                    adapter.Fill(dtlb);
+                    if(dtlb.Rows.Count==1)
+                    {
+                        frmUser UserDash = new frmUser();
+                        UserDash.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Invalid Credentials");
+                        txtPassword.Text = "";
+                        txtPassword.Focus();
+                    }
+                  
+                }
+                catch(SqlException error)
+                {
+                    MessageBox.Show(error.Message);
+                }
             }
         }
     }

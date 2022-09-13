@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDash));
             this.tbHairdresser = new System.Windows.Forms.TabControl();
             this.tbHair = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dgvClients = new System.Windows.Forms.DataGridView();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tbHairdresser.SuspendLayout();
             this.tbHair.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvClients)).BeginInit();
@@ -59,6 +59,17 @@
             this.tbHair.TabIndex = 0;
             this.tbHair.Text = "Clients";
             this.tbHair.UseVisualStyleBackColor = true;
+            this.tbHair.Click += new System.EventHandler(this.tbHair_Click);
+            // 
+            // dgvClients
+            // 
+            this.dgvClients.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvClients.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgvClients.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvClients.Location = new System.Drawing.Point(6, 38);
+            this.dgvClients.Name = "dgvClients";
+            this.dgvClients.Size = new System.Drawing.Size(546, 355);
+            this.dgvClients.TabIndex = 0;
             // 
             // tabPage2
             // 
@@ -69,14 +80,6 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // dgvClients
-            // 
-            this.dgvClients.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvClients.Location = new System.Drawing.Point(6, 6);
-            this.dgvClients.Name = "dgvClients";
-            this.dgvClients.Size = new System.Drawing.Size(488, 387);
-            this.dgvClients.TabIndex = 0;
             // 
             // frmDash
             // 
